@@ -1,0 +1,71 @@
+
+
+#datasikkerhet {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+#datasikkerhet div {
+    width: 136px;
+    height: 140px;
+    background-position-y: 14px;
+    background-color: green;
+}
+
+#datasikkerhet div:nth-last-of-type(1) {
+    background-image: url("../bilder/d1.jpeg");
+    background-position: center;
+    background-size: 190px;
+}
+
+#datasikkerhet div:nth-last-of-type(2) {
+    background-image: url("../bilder/d2.jpeg");
+    background-position: center;
+    background-size: 250px;
+}
+
+#datasikkerhet div:nth-last-of-type(3) {
+    background-image: url("../bilder/d3.jpeg");
+    background-position: center;
+    background-size: 136px;
+}
+
+#main {
+    padding: 50px;
+}
+
+article {
+    top: 300px;
+    position: absolute;
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(to right, red , yellow);
+    color: black;
+    font-size: 172%;
+}
+
+body {
+    background-color: white;
+}
+
+#animasjon {
+    position: absolute;
+    background-image: url("../bilder/tyv.png");
+    top: 400px;
+    width: 90px;
+    height: 140px;
+    left: 57px;
+    background-position-y: 146px;
+    background-color: yellow;
+    animation: sneak 4s infinite linear, 
+         run 0.7s infinite steps(6);    
+}
+
+@keyframes sneak {
+    100% { left: 110%; }
+}
+
+@keyframes run {
+    100% {background-position-x: 600px;}
+}
