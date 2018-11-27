@@ -1,11 +1,11 @@
 
 
-#datasikkerhet {
+#datasikkerhet {   
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
 #datasikkerhet div {
-    width: 136px;
+    width: 136px; 
     height: 140px;
     background-position-y: 14px;
     background-color: green;
