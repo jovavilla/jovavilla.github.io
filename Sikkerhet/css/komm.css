@@ -1,0 +1,19 @@
+header {
+    text-align: center;
+    background-image: linear-gradient(to right, red , yellow);
+    color: black;
+    font-size: 172%;
+}
+
+h2 {
+    text-align: center;
+    color:orange;
+    font-size: 2em;
+}
+
+
+article{
+    text-align: center;
+    color: black;
+    font-size: 1.5em;
+
