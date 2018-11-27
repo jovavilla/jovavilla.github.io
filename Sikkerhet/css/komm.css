@@ -7,13 +7,18 @@ header {
 
 h2 {
     text-align: center;
-    color:orange;
-    font-size: 2em;
+    font-size: 35px;
+    background: -webkit-linear-gradient(blue, red, yellow);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 
 article{
     text-align: center;
     color: black;
-    font-size: 1.5em;
-
+    font-size: 1.5em
+}
+p {
+    text-align: right;
+}
