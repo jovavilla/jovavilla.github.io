@@ -1,8 +1,11 @@
+
 header {
     text-align: center;
-    background-image: linear-gradient(to right, red , yellow);
-    color: black;
+    background-image: linear-gradient(to right, purple , green);
     font-size: 172%;
+    background: -webkit-linear-gradient(blue, red, yellow);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h2 {
@@ -11,14 +14,31 @@ h2 {
     background: -webkit-linear-gradient(blue, red, yellow);
     -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  
 }
 
 
 article{
-    text-align: center;
+    text-align: left;
     color: black;
-    font-size: 1.5em
+    font-size: 1.5em;
+    margin: 20px;
+    border: 5px solid pink;
+    
+    
 }
 p {
-    text-align: right;
+    text-align: left;
+    border: 5px solid grey;
+    width: 150px;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+   
+}
+
+main {
+    border: 50px solid blue; 
+    border-radius: 40px;
+    
 }
