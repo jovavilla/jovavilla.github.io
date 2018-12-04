@@ -1,0 +1,63 @@
+#ytre {
+    background-image: url("../Bilder/bakgrunnsbilde.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 1400px;
+    height: 800px;
+    position: absolute;
+   
+    
+    
+    
+}
+
+#luker {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 10px;
+    width: 1500px;
+    height: 800px;
+    position: absolute;
+    left: 50px;
+   
+
+}
+
+.luke {
+    width: 50px;
+    height: 50px;
+    position: center;
+    border: solid black 1px;
+    margin: 30px;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: fantasy;
+    background-color: rgba(245, 245, 245, 0.187)
+   
+
+}
+
+#vis {
+    width: 200px;
+    height: 150px;
+    border: solid blue 10px;
+    display: none;
+    position: absolute;
+    top: 10em;
+    left: 10em;
+    background-image: url("../Bilder/bilde1.jpg");
+
+}
+article {
+    color: purple;
+}
+    
+header {
+    text-align: center;
+    background-image: linear-gradient(to right, white , green);
+    font-size: 172%;
+    font-family: 'Courier New', Courier, monospace;
+    
+}

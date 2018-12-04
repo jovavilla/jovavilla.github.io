@@ -37,9 +37,10 @@ p {
     border-radius: 30px;
     padding: 10px;
     margin: 10px;
-    background: -webkit-linear-gradient(blue, yellow);
+    background: -webkit-linear-gradient(green, yellow);
     -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  
   
    
 }
